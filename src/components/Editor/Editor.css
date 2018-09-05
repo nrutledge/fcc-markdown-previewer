@@ -40,3 +40,19 @@ button:active {
     color: #EEE;
     background-color: #333;
 }
+
+#editor::-webkit-scrollbar {
+    width: 10px;
+}
+
+#editor::-webkit-scrollbar-track {
+    background: #222;
+}
+
+#editor::-webkit-scrollbar-thumb {
+    background: #666;
+}
+
+#editor::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
