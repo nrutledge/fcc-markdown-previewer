@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Editor from '../Editor/Editor';
 import Preview from '../Preview/Preview';
-import defaultText from '../../common/defaultText';
+import defaultText from './defaultText';
 import './App.css';
 
 class App extends Component {
