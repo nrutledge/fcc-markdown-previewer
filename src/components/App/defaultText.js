@@ -58,7 +58,7 @@ Flux capacitor|1|$1,000,000
 
 # Images
 
-![Alt text goes here](https://www.readersdigest.ca/wp-content/uploads/2011/01/4-ways-cheer-up-depressed-cat.jpg)
+![Alt text goes here](images/dog.jpg)
 `
 export default defaultText;
 
