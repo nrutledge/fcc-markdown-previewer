@@ -11,12 +11,12 @@
   }
   
 p code {
-    background-color: rgb(235, 235, 235);
+    background-color: #eff0f1;
     padding: 5px;
 }
 
 pre {
-    background-color: rgb(235, 235, 235);
+    background-color: #eff0f1;
     padding: 20px;
 }
 
