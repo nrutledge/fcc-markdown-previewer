@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Editor.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 
 class Editor extends Component {
     constructor(props) {
@@ -20,7 +22,7 @@ class Editor extends Component {
 
         return (
             <div className="editor-outer">
-                <button onClick={clearText}>Clear Text</button>
+                <button onClick={clearText}><FontAwesomeIcon icon={faTrashAlt} /> Clear Text</button>
                 <textarea 
                     id="editor" // For fcc tests
                     value={text} 

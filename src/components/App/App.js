@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Editor from '../Editor/Editor';
 import Preview from '../Preview/Preview';
 import defaultText from './defaultText';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMarker } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
 class App extends Component {
@@ -24,7 +26,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Markdown Previewer</h1>
+          <h1 className="App-title"><FontAwesomeIcon icon={faMarker} /> Markdown Previewer</h1>
         </header>
         <div className="container">
           <Editor text={this.state.text} handleInputChange={this.handleInputChange} clearText={this.clearText} />
