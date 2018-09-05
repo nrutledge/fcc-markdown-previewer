@@ -1,6 +1,6 @@
 # fcc-markdown-previewer
 
-A markdown previewer built with React for [freeCodeCamp](https://www.freecodecamp.com).
+A markdown previewer built with React for [freeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer).
 
 ## Try it
 
